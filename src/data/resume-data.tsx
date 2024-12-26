@@ -10,21 +10,23 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 // 个人简历配置数据
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki", // 姓名
-  initials: "BJ", // 姓名首字母
-  location: "Wrocław, Poland, CET", // 地理位置
-  locationLink: "https://www.google.com/maps/place/Wrocław", // 地理位置的链接（例如 Google 地图）
+  name: "郑小强", // 姓名
+  initials: "郑", // 姓名首字母
+  location: "Xiamen, Fujian", // 地理位置
+  locationLink: "", // 地理位置的链接（例如 Google 地图）
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.", // 简短的个人介绍
+    "希望我们都能保持清醒和有意义的生活😁.", // 简短的个人介绍
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      本科-软件工程（2017-2021）
+      <br />
+      <br />
+      我是一名来自厦门的前端开发工程师，热衷于技术创新与产品开发。
+
+      在业余时间，我持续学习并实践前沿编程技术，将其应用到个人项目中，以此实现技术与创意的有机融合，不断提升自己的技术水平和解决问题的能力。
     </>
   ), // 更详细的职业概述
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4", // 头像 URL
+  avatarUrl: "", // 头像 URL
   personalWebsiteUrl: "https://jarocki.me", // 个人网站链接
   contact: {
     email: "bartosz.jarocki@hey.com", // 联系邮箱
@@ -49,26 +51,25 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology", // 学校名称
-      degree: "Bachelor's Degree in Control systems engineering and Robotics", // 学位
-      start: "2007", // 入学年份
-      end: "2010", // 毕业年份
+      school: "本科-软件工程", // 学校名称
+      degree: "", // 学位
+      start: "2017", // 入学年份
+      end: "2021", // 毕业年份
     },
   ], // 教育经历数组
   work: [
     {
-      company: "Film.io", // 公司名称
-      link: "https://film.io", // 公司官网链接
+      company: "熵基科技", // 公司名称
+      link: "", // 公司官网链接
       badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"], // 技能标签
-      title: "Software Architect", // 职位名称
+      title: "前端开发工程师", // 职位名称
       logo: ConsultlyLogo, // 公司 logo
-      start: "2024", // 开始工作年份
+      start: "2023-3", // 开始工作年份
       end: null, // 结束工作年份，null 表示当前工作
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
+          负责运营后台管理系统，和熵基互联项目的维护，独立完成帮助中心的前后端开发
+          {/* <ul className="list-inside list-disc">
             <li>
               Architecting migration from CRA to Next.js for improved
               performance, SEO, and DX
@@ -80,30 +81,30 @@ export const RESUME_DATA = {
             <li>
               Implementing system-wide monitoring and security improvements
             </li>
-          </ul>
+          </ul> */}
         </>
       ), // 职位描述
     },
     {
-      company: "Parabol", // 公司名称
-      link: "https://parabol.co", // 公司官网链接
+      company: "快商通", // 公司名称
+      link: "", // 公司官网链接
       badges: [
-        "Remote", 
-        "React", 
-        "TypeScript", 
-        "Node.js", 
-        "GraphQL", 
+        "Remote",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "GraphQL",
         "Tailwind CSS",
       ], // 技能标签
-      title: "Senior Full Stack Developer", // 职位名称
+      title: "前端开发工程师", // 职位名称
       logo: ParabolLogo, // 公司 logo
-      start: "2021", // 开始工作年份
-      end: "2024", // 结束工作年份
+      start: "2021-6", // 开始工作年份
+      end: "2022-10", // 结束工作年份
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
+          
+          维护外呼机器人 scrm
+          {/* <ul className="list-inside list-disc">
             <li>
               Built design system with Tailwind CSS, improving development speed
               and time to market
@@ -115,100 +116,57 @@ export const RESUME_DATA = {
             <li>
               Open source contributions to Relay DevTools and React i18n tooling
             </li>
-          </ul>
+          </ul> */}
         </>
       ), // 职位描述
     },
     {
-      company: "Clevertech", // 公司名称
-      link: "https://clevertech.biz", // 公司官网链接
+      company: "众联世纪", // 公司名称
+      link: "", // 公司官网链接
       badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"], // 技能标签
-      title: "Lead Android Developer → Full Stack Developer", // 职位名称
+      title: "前端开发实习", // 职位名称
       logo: ClevertechLogo, // 公司 logo
-      start: "2015", // 开始工作年份
-      end: "2021", // 结束工作年份
+      start: "2021-3", // 开始工作年份
+      end: "2021-6", // 结束工作年份
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          维护韭黄挪车码项目
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              ...
             </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
+
           </ul>
         </>
+
       ), // 职位描述
     },
-    {
-      company: "Jojo Mobile", // 公司名称
-      link: "https://bsgroup.eu/", // 公司官网链接
-      badges: ["On Site", "Android", "Java", "Kotlin"], // 技能标签
-      title: "Android Developer → Lead Android Developer", // 职位名称
-      logo: JojoMobileLogo, // 公司 logo
-      start: "2012", // 开始工作年份
-      end: "2015", // 结束工作年份
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ), // 职位描述
-    },
-    {
-      company: "Nokia Siemens Networks", // 公司名称
-      link: "https://www.nokia.com", // 公司官网链接
-      badges: ["On Site", "C/C++", "LTE", "Agile"], // 技能标签
-      title: "C/C++ Developer", // 职位名称
-      logo: NSNLogo, // 公司 logo
-      start: "2010", // 开始工作年份
-      end: "2012", // 结束工作年份
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.", // 职位描述
-    },
+
   ], // 工作经历数组
   skills: [
     "React/Next.js/Remix", // 技能列表
     "TypeScript",
     "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
+    "antd Design",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Express",
+    "Vue",
+
   ],
   projects: [
     {
-      title: "Monito", // 项目名称
+      title: "home", // 项目名称
       techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"], // 技术栈
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports", // 项目描述
+        "个人主页", // 项目描述
       logo: MonitoLogo, // 项目 logo
       link: {
-        label: "monito.dev", // 项目链接文本
-        href: "https://monito.dev/", // 项目链接
+        label: "muliminty", // 项目链接文本
+        href: "http://muliminty.online/", // 项目链接
       },
     },
     {
-      title: "Consultly", // 项目名称
+      title: "QuickCode", // 项目名称
       techStack: [
         "TypeScript",
         "Next.js",
@@ -220,22 +178,22 @@ export const RESUME_DATA = {
         "Redis",
       ], // 技术栈
       description:
-        "Platform for online consultations with real-time video meetings and scheduling", // 项目描述
+        "QuickCode 是一个小工具脚本库，旨在提升效率并解决常见问题。", // 项目描述
       logo: ConsultlyLogo, // 项目 logo
       link: {
-        label: "consultly.com", // 项目链接文本
-        href: "https://consultly.com/", // 项目链接
+        label: "QuickCode11", // 项目链接文本
+        href: "https://github.com/Muliminty/QuickCode", // 项目链接
       },
     },
     {
-      title: "Minimalist CV", // 项目名称
+      title: "react-idea", // 项目名称
       techStack: ["TypeScript", "Next.js", "Tailwind CSS"], // 技术栈
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub", // 项目描述
+        "实现灵感仓库，实现花里胡哨的和有趣的react组件", // 项目描述
       logo: MonitoLogo, // 项目 logo
       link: {
-        label: "Minimalist CV", // 项目链接文本
-        href: "https://github.com/BartoszJarocki/cv", // 项目链接
+        label: "react-idea", // 项目链接文本
+        href: "https://github.com/Muliminty/react-idea", // 项目链接
       },
     },
   ], // 项目数组
