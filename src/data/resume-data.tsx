@@ -27,26 +27,26 @@ export const RESUME_DATA = {
     </>
   ), // 更详细的职业概述
   avatarUrl: "", // 头像 URL
-  personalWebsiteUrl: "https://jarocki.me", // 个人网站链接
+  personalWebsiteUrl: "http://muliminty.online/", // 个人网站链接
   contact: {
-    email: "bartosz.jarocki@hey.com", // 联系邮箱
-    tel: "+48530213401", // 联系电话
+    email: "muliminty@qq.com", // 联系邮箱
+    tel: "18659730313", // 联系电话
     social: [
       {
         name: "GitHub", // 社交平台名称
-        url: "https://github.com/BartoszJarocki", // GitHub 个人页面链接
+        url: "https://github.com/Muliminty", // GitHub 个人页面链接
         icon: GitHubIcon, // GitHub 图标组件
       },
-      {
-        name: "LinkedIn", // LinkedIn 名称
-        url: "https://www.linkedin.com/in/bjarocki/", // LinkedIn 个人页面链接
-        icon: LinkedInIcon, // LinkedIn 图标组件
-      },
-      {
-        name: "X", // X（前 Twitter）名称
-        url: "https://x.com/BartoszJarocki", // X 个人页面链接
-        icon: XIcon, // X 图标组件
-      },
+      // {
+      //   name: "LinkedIn", // LinkedIn 名称
+      //   url: "https://www.linkedin.com/in/bjarocki/", // LinkedIn 个人页面链接
+      //   icon: LinkedInIcon, // LinkedIn 图标组件
+      // },
+      // {
+      //   name: "X", // X（前 Twitter）名称
+      //   url: "https://x.com/BartoszJarocki", // X 个人页面链接
+      //   icon: XIcon, // X 图标组件
+      // },
     ], // 社交链接数组
   },
   education: [

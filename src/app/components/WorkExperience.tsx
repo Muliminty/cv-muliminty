@@ -50,9 +50,9 @@ function WorkPeriod({ start, end }: WorkPeriodProps) {
   return (
     <div
       className="text-sm tabular-nums text-gray-500"
-      aria-label={`Employment period: ${start} to ${end ?? "Present"}`}
+      aria-label={`Employment period: ${start} to ${end ?? "至今"}`}
     >
-      {start} - {end ?? "Present"}
+      {start} - {end ?? "至今"}
     </div>
   );
 }
