@@ -1,67 +1,65 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+# 简历项目
 
-# Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
+这是一个简单的 Web 应用程序，能够呈现极简风格的简历，具有适合打印的布局。
 
-Simple web app that renders minimalist CV with print-friendly layout.
+使用 Next.js 和 shadcn/ui 构建，部署在 Vercel 上。
 
-Built with Next.js and shadcn/ui, deployed on Vercel.
+# 功能
 
-# Features
+- 设置仅需几分钟 [单个配置文件](./src/data/resume-data.tsx)
+- 使用 Next.js 14、React、TypeScript、Shadcn/ui、TailwindCSS 构建
+- 自动生成布局
+- 适配各种设备的响应式设计
+- 优化 Next.js 和 Vercel 使用
 
-- Setup only takes a few minutes [single config file](./src/data/resume-data.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/ui, TailwindCss
-- Auto generated Layout
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+# 本地启动
 
-# Getting Started Locally
-
-1. Clone this repository to your local machine:
+1. 将此仓库克隆到本地机器：
 
    ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
+   git clone https://github.com/Muliminty/cv-muliminty.git
    ```
 
-2. Move to the cloned directory
+2. 进入克隆的目录：
 
    ```bash
    cd cv
    ```
 
-3. Install dependencies:
+3. 安装依赖项：
 
    ```bash
    yarn install
    ```
 
-4. Start the local Server:
+4. 启动本地服务器：
 
    ```bash
    yarn dev
    ```
 
-5. Open the [Config file](./src/data/resume-data.tsx) and make changes
+5. 打开 [配置文件](./src/data/resume-data.tsx) 并进行更改
 
-# Run with Docker
+# 使用 Docker 运行
 
-Build the container
+构建容器
 
 ```
 docker compose build
 ```
 
-Run the container
+运行容器
 
 ```
 docker compose up -d
 ```
 
-Stop the Container
+停止容器
 
 ```
 docker compose down 
 ```
 
-# License
+# 许可
 
 [MIT](https://choosealicense.com/licenses/mit/)
