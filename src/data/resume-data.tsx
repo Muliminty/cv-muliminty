@@ -18,8 +18,10 @@ export const RESUME_DATA = {
     "希望我们都能保持清醒和有意义的生活😁.", // 简短的个人介绍
   summary: (
     <>
-      本科-软件工程（2017-2021）
-      <br />
+      <div style={{ display: 'flex',justifyContent:'space-between' }}>
+        <span>本科-软件工程 </span>
+        <span>（2017-2021）</span>
+      </div>
       <br />
       我是一名来自厦门的前端开发工程师，热衷于技术创新与产品开发。
 
@@ -102,7 +104,7 @@ export const RESUME_DATA = {
       end: "2022-10", // 结束工作年份
       description: (
         <>
-          
+
           维护外呼机器人 scrm
           {/* <ul className="list-inside list-disc">
             <li>
@@ -158,7 +160,7 @@ export const RESUME_DATA = {
       title: "home", // 项目名称
       techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"], // 技术栈
       description:
-        "个人主页", // 项目描述
+        "个人主页,点击home查看详情", // 项目描述
       logo: MonitoLogo, // 项目 logo
       link: {
         label: "muliminty", // 项目链接文本
