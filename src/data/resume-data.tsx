@@ -18,14 +18,40 @@ export const RESUME_DATA = {
     "希望我们都能保持清醒和有意义的生活😁.", // 简短的个人介绍
   summary: (
     <>
-      <div style={{ display: 'flex',justifyContent:'space-between' }}>
+      {/* <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <span>本科-软件工程 </span>
         <span>（2017-2021）</span>
-      </div>
-      <br />
-      我是一名来自厦门的前端开发工程师，热衷于技术创新与产品开发。
+      </div> */}
+      <ul className="space-y-1 list-disc pl-5">
+        <li>熟练掌握HTML5+CSS3，并结合Sass/Less等预处理器进行设计稿还原</li>
+        <li>熟练掌握JavaScript并了解其基础原理并结合到日常开发中</li>
+        <li>熟练掌握运用ES6、ES7等新特性语法进行高效开发</li>
+        <li>熟练使用Vue2全家桶、Vue3全家桶(Vue3+TypeScript+Pinia)进行项目开发，并深入研究过其内部实现（阅读源码）</li>
+        <li>熟练掌握 Webpack、Vite对前端工程化有较深的理解和实践</li>
+        <li>熟练使用微信开发者工具进行原生微信小程序开发（移动端H5、内嵌WebView）、使用Uniapp进行小程序开发等</li>
+        <li>注重前端标准化，独立搭建符合规范的项目脚手架，包括Eslint、Pritter、Stylelint、Husky等规范搭建</li>
+        <li>熟悉Node语言、可使用Express、Koa2进行后端开发、熟悉MongoDB、MySQL数据库</li>
+        <li>熟悉使用Nginx进行资源反向代理配置、实现负载均衡、动静分离、配置高可用集群</li>
+        <li>熟悉Spring、SpringMVC、SpringBoot、SpringSecurity、Spring Data、Hibernate、MyBatis、MyBatis-Plus等常用框架</li>
+        <li>熟悉Redis，对底层磁盘以及网络 IO 模型、数据持久化机制、多数据类型缓存应用、高可用机制以及分布式集群实现，主从复制，哨兵机制，分片集群有所了解</li>
+        <li>熟悉Linux和Docker，熟悉其常用命令，可独立搭建测试环境和部署项目。</li>
 
-      在业余时间，我持续学习并实践前沿编程技术，将其应用到个人项目中，以此实现技术与创意的有机融合，不断提升自己的技术水平和解决问题的能力。
+        <li>熟练使用 React 和 React Hooks，了解其内部实现原理（如虚拟 DOM、Fiber 算法）</li>
+        <li>熟练使用 React Router 进行前端路由管理，处理单页应用的路由设计</li>
+        <li>熟练使用 Redux、React Context 和相关中间件（如 Redux-Saga、Redux-Thunk）进行状态管理</li>
+        <li>熟悉 TypeScript 与 React 配合使用，提升开发的类型安全性和可维护性</li>
+        <li>熟练掌握 JSX 和组件化开发，理解组件生命周期、函数式组件与类组件的区别</li>
+        <li>熟悉 React 性能优化策略，如 memoization、useMemo、useCallback、代码分割等</li>
+        <li>熟悉使用 styled-components 和 Emotion 等 CSS-in-JS 库进行样式管理</li>
+        <li>熟练掌握 Webpack、Vite 等工具进行前端工程化配置，支持 React 项目的打包与优化</li>
+        <li>熟悉 React 的服务端渲染（SSR）技术，如 Next.js 或 Gatsby.js</li>
+        <li>熟悉 React 测试框架，使用 Jest 和 React Testing Library 进行单元测试和集成测试</li>
+        <li>熟悉使用 Git、GitHub、GitLab 进行团队协作，掌握 GitFlow 等开发流程</li>
+        <li>注重前端标准化，使用 ESLint、Prettier、Stylelint 等工具规范代码风格</li>
+      </ul>
+
+
+
     </>
   ), // 更详细的职业概述
   avatarUrl: "", // 头像 URL
