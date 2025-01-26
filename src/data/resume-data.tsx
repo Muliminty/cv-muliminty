@@ -24,7 +24,7 @@ export const RESUME_DATA = {
           <p className="font-medium text-gray-900">基础技能：</p>
           <ul className="space-y-1 list-disc pl-5 text-gray-700">
             <li>
-              精通 HTML5 + CSS3，熟练运用 Flexbox、Grid 实现复杂响应式布局，确保跨浏览器兼容性和高性能渲染。
+              熟练 HTML5 + CSS3，熟练运用 Flexbox、Grid 实现复杂响应式布局，确保跨浏览器兼容性和高性能渲染。
             </li>
             <li>
               深入掌握 Sass/Less，编写模块化、可复用样式代码，结合 BEM 规范提升可维护性。
