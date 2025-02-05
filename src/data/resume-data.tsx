@@ -85,7 +85,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "http://muliminty.online/", // 个人网站链接
   contact: {
     email: "muliminty@qq.com", // 联系邮箱
-    tel: "18659730313", // 联系电话
+    tel: "18060561205", // 联系电话
     social: [
       {
         name: "GitHub", // 社交平台名称
