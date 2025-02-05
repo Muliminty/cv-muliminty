@@ -58,6 +58,7 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
       role="list"
       aria-label="Contact links"
     >
+
       {personalWebsiteUrl && (
         <SocialButton
           href={personalWebsiteUrl}
@@ -158,6 +159,14 @@ export function Header() {
           locationLink={RESUME_DATA.locationLink}
         />
 
+        {/* <div
+          className="max-w-md text-pretty font-mono text-sm text-foreground/80 print:text-[12px]"
+        >
+          <div>个人网站：http://muliminty.online/</div>
+          <div>GitHub：https://github.com/Muliminty</div>
+          <div>邮箱:muliminty@qq.com</div>
+          <div>电话：18659730313</div>
+        </div> */}
         <ContactButtons
           contact={RESUME_DATA.contact}
           personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
@@ -168,14 +177,14 @@ export function Header() {
           personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
         />
       </div>
-
+      {/* 
       <Avatar className="size-28" aria-hidden="true">
         <AvatarImage
           alt={`${RESUME_DATA.name}'s profile picture`}
           src={RESUME_DATA.avatarUrl}
         />
         <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-      </Avatar>
+      </Avatar> */}
     </header>
   );
 }

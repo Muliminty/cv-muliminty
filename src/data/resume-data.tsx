@@ -14,8 +14,7 @@ export const RESUME_DATA = {
   initials: "郑", // 姓名首字母
   location: "Xiamen, Fujian", // 地理位置
   locationLink: "", // 地理位置的链接（例如 Google 地图）
-  about:
-    "希望我们都能保持清醒和有意义的生活😁.", // 简短的个人介绍
+  about: "21年本科毕业|男|98年生", // 简短的个人介绍
   summary: (
     <>
       <ul className="space-y-4 list-none">
@@ -23,23 +22,16 @@ export const RESUME_DATA = {
         <li>
           <p className="font-medium text-gray-900">基础技能：</p>
           <ul className="space-y-1 list-disc pl-5 text-gray-700">
+            <li>熟练 HTML5、CSS3，擅长 Flexbox、Grid 布局，确保跨浏览器兼容性和高性能渲染。</li>
+            <li>熟练使用 Sass、Less，遵循 BEM 规范，实现样式代码的模块化与高效管理。</li>
             <li>
-              熟练 HTML5 与 CSS3 技术，熟练运用 Flexbox 和 Grid 布局技术，能够实现复杂响应式布局设计，确保在不同浏览器环境下的兼容性，实现高性能的页面渲染效果。
+              深入理解 JavaScript 核心原理，包括事件循环机制、原型链继承体系以及闭包特性等，能够灵活运用 ES6+ 新特性，显著提升开发效率和代码质量。
             </li>
-            <li>
-              深入掌握 Sass 和 Less 预处理器，能够编写模块化、可复用的样式代码，遵循 BEM 命名规范，提升代码的可维护性和可读性，确保大型项目中样式代码的高效管理。
-            </li>
-            <li>
-              深入理解 JavaScript 核心原理，包括事件循环机制、原型链继承体系以及闭包特性等，能够灵活运用 ES6+ 新特性（如箭头函数、模板字符串、解构赋值等），显著提升开发效率和代码质量。
-            </li>
-            <li>
-              熟悉浏览器渲染机制，深入了解 DOM 操作对页面性能的影响，通过优化 DOM 操作方式、合理控制页面布局和样式更新，有效减少页面重绘和回流次数，从而提升页面性能和用户体验。
-            </li>
-            <li>
-              熟悉 Node.js 运行环境，能够使用 Express 框架进行后端服务开发，掌握基础 SQL 语法，能够进行数据库查询、数据插入、更新和删除等操作，具备全栈开发能力。
-            </li>
-            <li>熟悉 Vue.js 框架相关语法和特性，包括组件化开发、数据绑定机制等，了解 Vue 生态系统中的常用工具和插件，能够基于 Vue.js 构建高效、可维护的前端应用。</li>
-            <li>熟悉微信小程序原生开发语法和框架结构，掌握 Taro 跨平台框架的使用方法，了解微信小程序的发布流程和规范，能够高效开发和部署微信小程序应用。</li>
+            <li>熟悉浏览器渲染机制，优化 DOM 操作，减少页面重绘与回流，提升性能。</li>
+            <li>掌握 Node.js、Express，熟悉 SQL，具备全栈开发能力。</li>
+            <li>熟悉 Vue.js，掌握组件化开发与数据绑定，了解常用生态工具。</li>
+            <li>熟悉微信小程序开发，掌握 Taro 跨平台框架，了解发布流程。</li>
+
           </ul>
         </li>
 
@@ -48,11 +40,9 @@ export const RESUME_DATA = {
           <p className="font-medium text-gray-900">React 技术栈：</p>
           <ul className="space-y-1 list-disc pl-5 text-gray-700">
             <li>
-              熟悉 React Router 实现动态路由、嵌套路由，优化路由性能。
+              熟练掌握React全家桶,进行项目开发
             </li>
-            <li>
-              熟悉 React 性能优化策略，能够运用 memoization 技术（如 React.memo、useMemo 和 useCallback 等）避免不必要的组件重新渲染和重复计算，通过代码分割（Code Splitting）技术优化应用的加载性能，从而显著提升 React 应用的整体运行效率和用户体验。
-            </li>
+            <li>掌握 React 性能优化，运用 memoization 技术与代码分割提升效率。</li>
             <li>
               熟悉 Next.js 相关功能，如静态生成、服务端渲染、API 路由等。
             </li>
@@ -74,7 +64,7 @@ export const RESUME_DATA = {
             </li>
 
             <li>
-              熟练使用 SourceTree 进行 Git 版本控制，熟悉 GitFlow 工作流。
+              熟练使用 SourceTree 进行 Git 版本控制，熟悉 githubFlow 工作流。
             </li>
           </ul>
         </li>
@@ -83,9 +73,10 @@ export const RESUME_DATA = {
         <li>
           <p className="font-medium text-gray-900">技术热情与开源贡献：</p>
           <ul className="space-y-1 list-disc pl-5 text-gray-700">
-            <li>热爱技术，积极参与开源项目，年均 GitHub 提交 1000+，持续学习并分享技术知识，为开源社区贡献力量。 </li>
-            <li>长期关注掘金、Stack Overflow、DEV Community、Medium 等技术社区，紧跟前沿技术动态，不断拓展技术视野。 </li>
-            <li>定期撰写技术博客，分享开发经验和解决方案，通过文字记录和总结技术成长历程。 </li>
+            <li>热爱技术，积极参与开源项目，年均 GitHub 提交 1000+。</li>
+            <li>关注技术社区，紧跟前沿动态，拓展技术视野。</li>
+            <li>定期撰写技术博客，分享开发经验与解决方案。</li>
+            <li>并</li>
           </ul>
         </li>
       </ul>

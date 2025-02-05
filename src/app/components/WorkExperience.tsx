@@ -139,10 +139,13 @@ export function WorkExperience({ work }: WorkExperienceProps) {
         工作经历
       </h2>
       <div className="space-y-4 print:space-y-0" role="feed" aria-labelledby="work-experience">
-        {work.map((item) => (
-          <article key={`${item.company}-${item.start}`} role="article">
-            <WorkExperienceItem work={item} />
-          </article>
+        {work.map((item, i) => (
+          <>
+            {i > 0 && <br/>}
+            <article key={`${item.company}-${item.start}`} role="article">
+              <WorkExperienceItem work={item} />
+            </article>
+          </>
         ))}
       </div>
     </Section>

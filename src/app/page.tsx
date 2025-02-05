@@ -76,8 +76,6 @@ export default function ResumePage() {
 
           <Summary summary={RESUME_DATA.summary} />
 
-
-
           <WorkExperience work={RESUME_DATA.work} />
 
 
