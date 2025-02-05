@@ -135,7 +135,7 @@ export const RESUME_DATA = {
             <ul className="list-disc list-inside space-y-1 text-gray-700">
               <li>负责访客模块、运营管理后台及配套小程序的开发维护，主导代码优化和重构工作</li>
               <li>基于 React 技术栈开发新功能，采用模块化组件设计，封装通用业务组件，提升代码复用率 40%+</li>
-              <li>与产品、设计团队紧密协作，主导需求评审与方案设计，输出 10+ 份技术方案文档</li>
+              <li>与产品、设计团队紧密协作，完成需求评审与方案设计。</li>
             </ul>
           </div>
 
