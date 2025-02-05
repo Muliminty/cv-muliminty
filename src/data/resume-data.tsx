@@ -24,17 +24,22 @@ export const RESUME_DATA = {
           <p className="font-medium text-gray-900">基础技能：</p>
           <ul className="space-y-1 list-disc pl-5 text-gray-700">
             <li>
-              熟练 HTML5 + CSS3，熟练运用 Flexbox、Grid 实现复杂响应式布局，确保跨浏览器兼容性和高性能渲染。
+              熟练 HTML5 与 CSS3 技术，熟练运用 Flexbox 和 Grid 布局技术，能够实现复杂响应式布局设计，确保在不同浏览器环境下的兼容性，实现高性能的页面渲染效果。
             </li>
             <li>
-              深入掌握 Sass/Less，编写模块化、可复用样式代码，结合 BEM 规范提升可维护性。
+              深入掌握 Sass 和 Less 预处理器，能够编写模块化、可复用的样式代码，遵循 BEM 命名规范，提升代码的可维护性和可读性，确保大型项目中样式代码的高效管理。
             </li>
             <li>
-              深入理解 JavaScript 核心原理（事件循环、原型链、闭包等），灵活运用 ES6+ 新特性提升开发效率。
+              深入理解 JavaScript 核心原理，包括事件循环机制、原型链继承体系以及闭包特性等，能够灵活运用 ES6+ 新特性（如箭头函数、模板字符串、解构赋值等），显著提升开发效率和代码质量。
             </li>
             <li>
-              熟悉浏览器渲染机制，通过优化 DOM 操作、减少重绘和回流提升页面性能。
+              熟悉浏览器渲染机制，深入了解 DOM 操作对页面性能的影响，通过优化 DOM 操作方式、合理控制页面布局和样式更新，有效减少页面重绘和回流次数，从而提升页面性能和用户体验。
             </li>
+            <li>
+              熟悉 Node.js 运行环境，能够使用 Express 框架进行后端服务开发，掌握基础 SQL 语法，能够进行数据库查询、数据插入、更新和删除等操作，具备全栈开发能力。
+            </li>
+            <li>熟悉 Vue.js 框架相关语法和特性，包括组件化开发、指令系统、数据绑定机制等，了解 Vue 生态系统中的常用工具和插件，能够基于 Vue.js 构建高效、可维护的前端应用。</li>
+            <li>熟悉微信小程序原生开发语法和框架结构，掌握 Taro 跨平台框架的使用方法，了解微信小程序的发布流程和规范，能够高效开发和部署微信小程序应用。</li>
           </ul>
         </li>
 
@@ -43,34 +48,16 @@ export const RESUME_DATA = {
           <p className="font-medium text-gray-900">React 技术栈：</p>
           <ul className="space-y-1 list-disc pl-5 text-gray-700">
             <li>
-              熟练使用 React 和 React Hooks，深入理解虚拟 DOM 和 Fiber 算法，正在学习 React 源码：
-              <a
-                href="https://github.com/Muliminty/react-learn"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                https://github.com/Muliminty/react-learn
-              </a>
-              。
-            </li>
-            <li>
               熟悉 React Router 实现动态路由、嵌套路由，优化路由性能。
             </li>
             <li>
-              熟练使用 Redux、Context 进行状态管理，结合中间件（如 Redux-Thunk、Redux-Saga）处理异步逻辑。
+              熟悉 React 性能优化策略，能够运用 memoization 技术（如 React.memo、useMemo 和 useCallback 等）避免不必要的组件重新渲染和重复计算，通过代码分割（Code Splitting）技术优化应用的加载性能，从而显著提升 React 应用的整体运行效率和用户体验。
             </li>
             <li>
-              熟悉 React 性能优化策略，如 memoization、useMemo、useCallback、代码分割等。
+              熟悉 Next.js 相关功能，如静态生成、服务端渲染、API 路由等。
             </li>
             <li>
-              熟悉 Next.js 服务端渲染（SSR）和 Gatsby.js 静态站点生成。
-            </li>
-            <li>
-              熟悉 React 测试工具（Jest、React Testing Library），编写单元测试和集成测试。
-            </li>
-            <li>
-              熟悉 React 生态工具库，如 React Query、Formik、React Hook Form 等。
+              熟悉 React 生态工具库，如 Redux、Mobx、Zustand、Ant Design、React Router、ahook、dndkit 等。
             </li>
           </ul>
         </li>
@@ -85,22 +72,10 @@ export const RESUME_DATA = {
             <li>
               开发 Vite 插件，通过环境变量动态配置 npm run 脚本，实现多环境接口切换。
             </li>
-            <li>
-              熟练使用 ESLint、Prettier、Stylelint、Husky 搭建标准化项目脚手架。
-            </li>
+
             <li>
               熟练使用 SourceTree 进行 Git 版本控制，熟悉 GitFlow 工作流。
             </li>
-          </ul>
-        </li>
-
-        {/* 后端与运维 */}
-        <li>
-          <p className="font-medium text-gray-900">后端与运维：</p>
-          <ul className="space-y-1 list-disc pl-5 text-gray-700">
-            <li>熟悉 Node.js，使用 Express 进行后端开发。</li>
-            <li>熟悉 MongoDB、MySQL，掌握数据库设计与优化。</li>
-            <li>熟悉 Nginx 配置，实现反向代理、负载均衡和高可用集群。</li>
           </ul>
         </li>
 
@@ -108,15 +83,9 @@ export const RESUME_DATA = {
         <li>
           <p className="font-medium text-gray-900">技术热情与开源贡献：</p>
           <ul className="space-y-1 list-disc pl-5 text-gray-700">
-            <li>
-              热爱技术，年均 GitHub 提交 1000+，持续学习并分享技术知识。
-            </li>
-            <li>
-              长期阅读掘金、Stack Overflow、DEV Community、Medium，关注前沿技术动态。
-            </li>
-            <li>
-              定期撰写技术博客，分享开发经验和解决方案。
-            </li>
+            <li>热爱技术，积极参与开源项目，年均 GitHub 提交 1000+，持续学习并分享技术知识，为开源社区贡献力量。 </li>
+            <li>长期关注掘金、Stack Overflow、DEV Community、Medium 等技术社区，紧跟前沿技术动态，不断拓展技术视野。 </li>
+            <li>定期撰写技术博客，分享开发经验和解决方案，通过文字记录和总结技术成长历程。 </li>
           </ul>
         </li>
       </ul>
@@ -164,20 +133,22 @@ export const RESUME_DATA = {
       end: null, // 结束工作年份，null 表示当前工作
       description: (
         <>
-          负责运营后台管理系统，和熵基互联项目的维护，独立完成帮助中心的前后端开发
-          {/* <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul> */}
+          {/* 负责运营后台管理系统，和熵基互联项目的维护，独立完成帮助中心的前后端开发 */}
+          <div className="space-y-2">
+            <p className="font-semibold text-gray-900">
+              熵基互联
+            </p>
+            <p className="text-gray-700">
+              熵基互联陪伴中小企业数字化转型，为中小企业提供“场所管理+经营管理”的SaaS云服务，助力企业管理升级和数字化营销。
+            </p>
+            <p className="text-gray-900 font-medium">我的职责与贡献：</p>
+            <ul className="list-disc list-inside space-y-1 text-gray-700">
+              <li>主导 SCRM PC 端复杂表单页面的开发，优化用户交互体验，提高开发效率</li>
+              <li>基于 Taro 框架开发小程序，参考 antd API 封装表格、日期等基础组件，显著提升团队开发效率，减少重复代码量</li>
+              <li>与产品经理、后端开发紧密协作，确保项目按时交付，并参与代码评审，提升代码质量。</li>
+            </ul>
+          </div>
+
         </>
       ), // 职位描述
     },

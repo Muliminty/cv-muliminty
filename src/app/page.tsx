@@ -81,9 +81,9 @@ export default function ResumePage() {
           <WorkExperience work={RESUME_DATA.work} />
 
 
-          <Skills skills={RESUME_DATA.skills} />
+          {/* <Skills skills={RESUME_DATA.skills} /> */}
 
-          <Projects projects={RESUME_DATA.projects} />
+          {/* <Projects projects={RESUME_DATA.projects} /> */}
         </div>
       </section>
 
