@@ -116,7 +116,7 @@ export const RESUME_DATA = {
     {
       company: "熵基科技", // 公司名称
       link: "", // 公司官网链接
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"], // 技能标签
+      badges: ["React", "Redux", "Node.js", "vite", "Webpack", "antd"], // 技能标签
       title: "前端开发工程师", // 职位名称
       logo: ConsultlyLogo, // 公司 logo
       start: "2023-3", // 开始工作年份
