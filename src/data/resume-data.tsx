@@ -38,7 +38,7 @@ export const RESUME_DATA = {
             <li>
               熟悉 Node.js 运行环境，能够使用 Express 框架进行后端服务开发，掌握基础 SQL 语法，能够进行数据库查询、数据插入、更新和删除等操作，具备全栈开发能力。
             </li>
-            <li>熟悉 Vue.js 框架相关语法和特性，包括组件化开发、指令系统、数据绑定机制等，了解 Vue 生态系统中的常用工具和插件，能够基于 Vue.js 构建高效、可维护的前端应用。</li>
+            <li>熟悉 Vue.js 框架相关语法和特性，包括组件化开发、数据绑定机制等，了解 Vue 生态系统中的常用工具和插件，能够基于 Vue.js 构建高效、可维护的前端应用。</li>
             <li>熟悉微信小程序原生开发语法和框架结构，掌握 Taro 跨平台框架的使用方法，了解微信小程序的发布流程和规范，能够高效开发和部署微信小程序应用。</li>
           </ul>
         </li>
@@ -132,7 +132,7 @@ export const RESUME_DATA = {
       start: "2023-3", // 开始工作年份
       end: null, // 结束工作年份，null 表示当前工作
       description: (
-        <>
+        <div className="space-y-4">
           {/* 负责运营后台管理系统，和熵基互联项目的维护，独立完成帮助中心的前后端开发 */}
           <div className="space-y-2">
             <p className="font-semibold text-gray-900">
@@ -143,13 +143,31 @@ export const RESUME_DATA = {
             </p>
             <p className="text-gray-900 font-medium">我的职责与贡献：</p>
             <ul className="list-disc list-inside space-y-1 text-gray-700">
-              <li>主导 SCRM PC 端复杂表单页面的开发，优化用户交互体验，提高开发效率</li>
-              <li>基于 Taro 框架开发小程序，参考 antd API 封装表格、日期等基础组件，显著提升团队开发效率，减少重复代码量</li>
-              <li>与产品经理、后端开发紧密协作，确保项目按时交付，并参与代码评审，提升代码质量。</li>
+              <li>负责访客模块、运营管理后台及配套小程序的开发维护，主导代码优化和重构工作</li>
+              <li>基于 React 技术栈开发新功能，采用模块化组件设计，封装通用业务组件，提升代码复用率 40%+</li>
+              <li>与产品、设计团队紧密协作，主导需求评审与方案设计，输出 10+ 份技术方案文档</li>
             </ul>
           </div>
 
-        </>
+          {/* 分隔线 */}
+          <hr className="border-gray-200" />
+
+          <div className="space-y-2">
+            <p className="font-semibold text-gray-900">
+              全栈代码生成器（React/Node.js）
+            </p>
+            <p className="text-gray-700">
+              这是一款自主研发的工程效能工具，采用前后端分离架构。前端基于 Vite + React + Ant Design 构建交互系统，后端使用 Node.js + Express + SQLite 实现生成逻辑，并集成 art-template 模板引擎。支持 20 + 种标准代码模板的智能生成与动态编译，有效减少手动编写代码的时间和精力，助力开发人员专注于业务逻辑和核心功能的开发。
+            </p>
+            <p className="text-gray-900 font-medium">我的职责与贡献：</p>
+            <ul className="list-disc list-inside space-y-1 text-gray-700">
+              <li>独立完成技术预研，把控架构设计全局，完成全部核心代码的开发，并为团队提供内部培训。</li>
+              <li>核心生成引擎开发：开发核心生成引擎，通过配置驱动的方式生成数据库实体、RESTful 接口，大幅度提高开发效率。</li>
+              <li>可视化配置系统构：构建可视化配置系统，基于 antd Form 实现动态表单渲染，支持动态参数组合配置。</li>
+              <li>代码规范制定：根据项目代码规范标准，沉淀最佳实践模板，推动团队代码风格统一，降低维护成本</li>
+            </ul>
+          </div>
+        </div>
       ), // 职位描述
     },
     {
@@ -206,7 +224,7 @@ export const RESUME_DATA = {
           </div>
 
           {/* 分隔线 */}
-          <hr className="border-gray-200" />
+          {/* <hr className="border-gray-200" /> */}
         </div>
       ), // 职位描述
     }
