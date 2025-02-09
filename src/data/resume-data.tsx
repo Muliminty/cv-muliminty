@@ -144,6 +144,28 @@ export const RESUME_DATA = {
 
           <div className="space-y-2">
             <p className="font-semibold text-gray-900">
+              帮助中心
+            </p>
+            <p className="text-gray-700">
+              基于 Vite、React 和 Ant Design 构建的企业级帮助中心项目，旨在为用户提供高效、便捷的技术支持与知识管理平台。
+            </p>
+            <p className="text-gray-900 font-medium">我的职责与贡献：</p>
+            <ul className="list-disc list-inside space-y-1 text-gray-700">
+              <li>技术架构与核心开发，独立完成技术选型与架构设计，主导项目核心代码开发，确保系统高性能、高可维护性与扩展性。</li>
+              <li>开发效率优化， 自主研发 Vite 样式自动导入插件，显著提升代码开发效率，减少重复性工作，加快项目迭代速度。</li>
+              <li>模块化开发工具，基于 Node.js 的 fs 模块，设计并实现一键生成模块模板工具（支持 JSX + SCSS），大幅简化开发流程，提升团队协作效率。</li>
+              <li>多端适配与兼容性，通过响应式设计，确保项目在 PC、平板、手机等多尺寸设备上的完美适配，提供一致的用户体验。</li>
+              <li>富文本渲染引擎研发，主导开发自定义富文本渲染引擎，支持代码块高亮、响应式图片、视频播放器等 15 + 复杂元素解析，满足多样化内容展示需求。</li>
+              <li>智能目录生成系统，基于DOM树解析实现标题层级自动抽取算法，支持6级标题自动缩进</li>
+            </ul>
+          </div>
+
+          {/* 分隔线 */}
+          <hr className="border-gray-200" />
+
+
+          <div className="space-y-2">
+            <p className="font-semibold text-gray-900">
               全栈代码生成器（React/Node.js）
             </p>
             <p className="text-gray-700">
