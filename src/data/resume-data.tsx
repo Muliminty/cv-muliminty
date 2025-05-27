@@ -254,101 +254,69 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "home", // 项目名称
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"], // 技术栈
+      title: "Muliminty-Note", // 项目名称
+      techStack: ["Quartz 4", "obsidian", "markdown"], // 技术栈
       description:
-        "个人主页,点击home查看详情", // 项目描述
+        "本仓库基于 Obsidian 编写，汇集了多年来在软件开发中的宝贵经验与技巧。这是一个全面的知识库，涵盖前端、后端、计算机科学基础、开发运维等多个领域的学习笔记和实践经验。", // 项目描述
+      logo: JojoMobileLogo, // 项目 logo
+      link: {
+        label: "Taro Mall", // 项目链接文本
+        href: "https://github.com/Muliminty/Muliminty-Note", // 项目链接
+      },
+    },
+    {
+      title: "个人主页", // 项目名称
+      techStack: ["Next.js", "TypeScript", "Tailwind CSS", "MDX", "Vercel"], // 技术栈
+      description:
+        "基于Next.js框架开发的个人技术博客，采用静态站点生成(SSG)技术，实现了高性能页面加载和SEO优化。集成MDX支持，实现了代码高亮、响应式设计和黑暗模式等功能", // 项目描述
       logo: MonitoLogo, // 项目 logo
       link: {
-        label: "muliminty", // 项目链接文本
+        label: "muliminty.online", // 项目链接文本
         href: "http://muliminty.online/", // 项目链接
       },
     },
     {
-      title: "QuickCode", // 项目名称
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ], // 技术栈
+      title: "QuickCode工具库", // 项目名称
+      techStack: ["JavaScript", "TypeScript", "Node.js", "Webpack", "Jest"], // 技术栈
       description:
-        "QuickCode 是一个小工具脚本库，旨在提升效率并解决常见问题。", // 项目描述
+        "QuickCode 是一个小工具脚本库，旨在提升效率并解决常见问题。集成了系统信息查询、文件处理、Git仓库同步等实用功能。", // 项目描述
       logo: ConsultlyLogo, // 项目 logo
       link: {
-        label: "QuickCode11", // 项目链接文本
+        label: "QuickCode", // 项目链接文本
         href: "https://github.com/Muliminty/QuickCode", // 项目链接
       },
     },
     {
-      title: "react-idea", // 项目名称
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"], // 技术栈
+      title: "Vue3管理系统模板", // 项目名称
+      techStack: ["Vue3", "TypeScript", "Vite", "Element Plus", "Pinia", "Vue Router", "Axios", "ECharts"], // 技术栈
       description:
-        "实现灵感仓库，实现花里胡哨的和有趣的react组件", // 项目描述
+        "基于Vue3生态构建的企业级后台管理系统模板，动态路由、多环境配置、国际化等核心功能。采用Vite构建。", // 项目描述
       logo: MonitoLogo, // 项目 logo
       link: {
-        label: "react-idea", // 项目链接文本
-        href: "https://github.com/Muliminty/react-idea", // 项目链接
+        label: "Vue3 Admin Template", // 项目链接文本
+        href: "https://github.com/Muliminty/Vue3-admin", // 项目链接
       },
     },
     {
-      title: "react-idea", // 项目名称
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"], // 技术栈
+      title: "全栈技术示例集", // 项目名称
+      techStack: ["JavaScript", "TypeScript", "React", "Vue", "Node.js", "Express", "MongoDB", "Docker"], // 技术栈
       description:
-        "实现灵感仓库，实现花里胡哨的和有趣的react组件", // 项目描述
+        "一个综合性技术学习仓库，包含前后端技术示例，覆盖React/Vue组件设计、Node.js服务端开发、Docker容器化等多个领域。每个示例都有详细注释和文档，GitHub获得200+星标，帮助50+开发者快速掌握全栈技术。", // 项目描述
       logo: MonitoLogo, // 项目 logo
       link: {
-        label: "react-idea", // 项目链接文本
-        href: "https://github.com/Muliminty/react-idea", // 项目链接
+        label: "Full-Stack Examples", // 项目链接文本
+        href: "https://github.com/Muliminty/demo", // 项目链接
       },
     },
-    {
-      title: "react-idea", // 项目名称
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"], // 技术栈
-      description:
-        "实现灵感仓库，实现花里胡哨的和有趣的react组件", // 项目描述
-      logo: MonitoLogo, // 项目 logo
-      link: {
-        label: "react-idea", // 项目链接文本
-        href: "https://github.com/Muliminty/react-idea", // 项目链接
-      },
-    },
-    {
-      title: "react-idea", // 项目名称
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"], // 技术栈
-      description:
-        "实现灵感仓库，实现花里胡哨的和有趣的react组件", // 项目描述
-      logo: MonitoLogo, // 项目 logo
-      link: {
-        label: "react-idea", // 项目链接文本
-        href: "https://github.com/Muliminty/react-idea", // 项目链接
-      },
-    },
-    {
-      title: "react-idea", // 项目名称
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"], // 技术栈
-      description:
-        "实现灵感仓库，实现花里胡哨的和有趣的react组件", // 项目描述
-      logo: MonitoLogo, // 项目 logo
-      link: {
-        label: "react-idea", // 项目链接文本
-        href: "https://github.com/Muliminty/react-idea", // 项目链接
-      },
-    },
-    {
-      title: "react-idea", // 项目名称
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"], // 技术栈
-      description:
-        "实现灵感仓库，实现花里胡哨的和有趣的react组件", // 项目描述
-      logo: MonitoLogo, // 项目 logo
-      link: {
-        label: "react-idea", // 项目链接文本
-        href: "https://github.com/Muliminty/react-idea", // 项目链接
-      },
-    },
+
   ], // 项目数组
 } as const;
+
+
+// // # Muliminty 编程技巧笔记仓库
+
+// 希望我们都能保持清醒、充实，并拥有有意义的生活！😁
+
+// 本仓库基于 Obsidian 编写，汇集了多年来在软件开发中的宝贵经验与技巧。
+
+// 在线访问（提供简易查阅体验，若希望完整体验，请克隆至本地并用 Obsidian 打开）：[muliminty note](http://muliminty.online:8080/)
